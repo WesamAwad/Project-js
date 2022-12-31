@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-Css-JavaScript</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Start Setting Box -->
+    <div class="Setting-box">
+        <div class="setting-gear">
+            <div class="icon">
+                <i class="fa-solid fa-gear gear"></i>
+            </div>
+        </div>
+        <div class="box">
+            <h5 class="fw-bold">Colors</h5>
+            <ul class="list-unstyled mb-0">
+                <li class="active" data-color="#FF9800"></li>
+                <li data-color="#E91E63"></li>
+                <li data-color="#009688"></li>
+                <li data-color="#03A9F4"></li>
+                <li data-color="#4CAF50"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="first">
+                <h5 class="fw-bold">ٌRandom Backgrounds</h5>
+                <span class="yes active" data-background="yes">Yes</span>
+                <span class="no" data-background="no">No</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="second">
+                <h5 class="fw-bold test">ٌShow Bullets</h5>
+                <span class="yes active" data-display="yes">Yes</span>
+                <span class="no" data-display="no">No</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="third">
+                <h5 class="fw-bold">Scrolling Nav</h5>
+                <span class="yes" data-nav="yes">Yes</span>
+                <span class="no active" data-nav="no">No</span>
+            </div>
+        </div>
+        <button class="reset-option form-control">Reset Option</button>
+    </div>
+    <!-- End Setting Box -->
+
+    <!-- Start bullets -->
+    <div class="bullets">
+        <div class="bullet">
+            <p class="mb-0 p-bullet">About Us</p>
+            <p class="circle mb-0" data-section=".About-us"></p>
+        </div>
+        <div class="bullet">
+            <p class="mb-0 p-bullet">Our Skills</p>
+            <p class="circle mb-0" data-section=".Our-Skills"></p>
+        </div>
+        <div class="bullet">
+            <p class="mb-0 p-bullet">Our Gallery</p>
+            <p class="circle mb-0" data-section=".Gallery"></p>
+        </div>
+        <div class="bullet">
+            <p class="mb-0 p-bullet">Timeline</p>
+            <p class="circle mb-0" data-section=".Timeline"></p>
+        </div>
+        <div class="bullet">
+            <p class="mb-0 p-bullet">Features</p>
+            <p class="circle mb-0" data-section=".Our-Features"></p>
+        </div>
+        <div class="bullet">
+            <p class="mb-0 p-bullet">Testimonials</p>
+            <p class="circle mb-0" data-section=".Testimonials"></p>
+        </div>
+    </div>
+
+    <!-- End bullets -->
+
+    <!-- Start Landing Page -->
+    <header class="Landing-page">
+        <div class="overlay"></div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container position-relative">
+                <a class="navbar-brand" href="#">Special Design</a>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="" id="">
+                    <ul class="mb-0 d-flex list-unstyled">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" data-section=".About-us">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-section=".Our-Skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-section=".Gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-section=".Timeline">Timeline</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-section=".Our-Features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-section=".Testimonials">Testimonials</a>
+                        </li>
+                    </ul>
+
+                    <button class="toggle-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="text">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo deleniti mollitia natus ab rem, iure sit ut
+                dignissimos odio esse quia nemo, impedit eos reprehenderit totam expedita provident alias aperiam.</p>
+        </div>
+    </header>
+    <!-- End Landing Page   -->
+
+
+    <!-- Start About Us -->
+    <section class="About-us mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8 text-center text-md-start">
+                    <h2>About Us</h2>
+                    <p class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, excepturi
+                        numquam ipsa culpa voluptate eveniet vel alias ad animi, itaque voluptates sequi possimus
+                        voluptatem soluta quam, quod quo facilis!</p>
+                </div>
+                <div class="col-md-4 text-center text-md-start">
+                    <img src="img/About-us.webp" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Us -->
+
+    <!-- Start Our Skills -->
+    <section class="Our-Skills pt-5 pb-5 mt-5">
+        <h2 class="text-center fw-bold mb-5">Our Skills</h2>
+        <div class="container">
+            <div class="box align-items-center">
+                <span>HTML</span>
+                <div class="progress" style="height: 30px;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100" data-progress="70%"></div>
+                </div>
+            </div>
+            <div class="box align-items-center">
+                <span>Css</span>
+                <div class="progress" style="height: 30px;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100" data-progress="90%"></div>
+                </div>
+            </div>
+            <div class="box align-items-center">
+                <span>JavaScript</span>
+                <div class="progress" style="height: 30px;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100" data-progress="40%"></div>
+                </div>
+            </div>
+            <div class="box align-items-center">
+                <span>Python</span>
+                <div class="progress" style="height: 30px;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100" data-progress="80%"></div>
+                </div>
+            </div>
+            <div class="box align-items-center">
+                <span>php</span>
+                <div class="progress" style="height: 30px;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100" data-progress="60%"></div>
+                </div>
+            </div>
+            <div class="box align-items-center">
+                <span>MySQL</span>
+                <div class="progress" style="height: 30px;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100" data-progress="90%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Skills -->
+
+    <!-- Start Our Gallery -->
+    <section class="Gallery mt-5">
+        <div class="container">
+            <h3 class="fw-bold text-center mb-5 h3-1">Our Gallery</h3>
+            <div class="row">
+                <div class="col-6 col-md-4 col-sm-6 col-lg">
+                    <div class="image">
+                        <img src="img/Gallery-1.jpg" alt="Image One" class="img-fluid img-Gallery mb-3">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-6 col-lg">
+                    <div class="image">
+                        <img src="img/Gallery-2.jpg" alt="Image two" class="img-fluid img-Gallery mb-3">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-6 col-lg">
+                    <div class="image">
+                        <img src="img/Gallery-3.jpg" alt="Image Three" class="img-fluid img-Gallery mb-3">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-6 col-lg">
+                    <div class="image">
+                        <img src="img/Gallery-4.jpg" alt="Image Four" class="img-fluid img-Gallery mb-3">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-6 col-lg">
+                    <div class="image">
+                        <img src="img/Gallery-5.jpg" alt="Image Five" class="img-fluid img-Gallery mb-3">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-4 col-sm-6 col-lg">
+                    <div class="image">
+                        <img src="img/backgroun-1.webp" alt="" class="img-fluid img-Gallery mb-3">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-6 col-lg">
+                    <div class="image">
+                        <img src="img/backgroun-2.jpg" alt="" class="img-fluid img-Gallery mb-3">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-6 col-lg">
+                    <div class="image">
+                        <img src="img/backgroun-3.jpg" alt="" class="img-fluid img-Gallery mb-3">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-6 col-lg">
+                    <div class="image">
+                        <img src="img/backgroun-4.jpg" alt="" class="img-fluid img-Gallery mb-3">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-sm-6 col-lg">
+                    <div class="image">
+                        <img src="img/backgroun-5.webp" alt="" class="img-fluid img-Gallery mb-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Gallery -->
+
+    <!-- Start Timeline -->
+    <section class="Timeline mt-5 pt-5 pb-5">
+        <div class="container position-relative">
+
+            <div class="row befor position-relative">
+                <div class="col-md-6 ">
+                    <h6 class="h6-1 position-relative">2018</h6>
+                    <div class="box-left position-relative">
+                        <h6>Testing Heading</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor explicabo exercitationem
+                            praesentium voluptas! Assumenda, exercitationem. Corporis eligendi quae expedita
+                            consequuntur iste odio eius deserunt hic architecto ea! Amet, iste ut.</p>
+                    </div>
+                    <div class="box-left position-relative">
+                        <h6>Testing Heading</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor explicabo exercitationem
+                            praesentium voluptas! Assumenda, exercitationem. Corporis eligendi quae expedita
+                            consequuntur iste odio eius deserunt hic architecto ea! Amet, iste ut.</p>
+                    </div>
+                    <h6 class="h6-1 position-relative">2016</h6>
+                    <div class="box-left position-relative">
+                        <h6>Testing Heading</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor explicabo exercitationem
+                            praesentium voluptas! Assumenda, exercitationem. Corporis eligendi quae expedita
+                            consequuntur iste odio eius deserunt hic architecto ea! Amet, iste ut.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box-right position-relative">
+                        <h6>Testing Heading</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor explicabo exercitationem
+                            praesentium voluptas! Assumenda, exercitationem. Corporis eligendi quae expedita
+                            consequuntur iste odio eius deserunt hic architecto ea! Amet, iste ut.</p>
+                    </div>
+                    <div class="box-right position-relative">
+                        <h6>Testing Heading</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor explicabo exercitationem
+                            praesentium voluptas! Assumenda, exercitationem. Corporis eligendi quae expedita
+                            consequuntur iste odio eius deserunt hic architecto ea! Amet, iste ut.</p>
+                    </div>
+                    <div class="box-right position-relative">
+                        <h6>Testing Heading</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor explicabo exercitationem
+                            praesentium voluptas! Assumenda, exercitationem. Corporis eligendi quae expedita
+                            consequuntur iste odio eius deserunt hic architecto ea! Amet, iste ut.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Timeline -->
+
+    <!-- Start Our Features -->
+    <section class="Our-Features text-center mt-5 pt-5">
+        <div class="container">
+            <h3 class="fw-bold h3-1 mb-5">Our Features</h3>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-5">
+                    <div class="box">
+                        <div class="image">
+                            <img src="img/development-1.png" alt="" class="development">
+                        </div>
+                        <h5 class="fw-bold h5-1 position-relative">Development</h5>
+                        <p class="p-7">We are professional marketeers. we will do anything you imagine in no time</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-5">
+                    <div class="box">
+                        <div class="image">
+                            <img src="img/development-2.png" alt="" class="development">
+                        </div>
+                        <h5 class="fw-bold h5-1 position-relative">Marketing</h5>
+                        <p class="p-7">We are professional marketeers. we will do anything you imagine in no time</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-5">
+                    <div class="box">
+                        <div class="image">
+                            <img src="img/development-3.png" alt="" class="development">
+                        </div>
+                        <h5 class="fw-bold h5-1 position-relative">Hosting</h5>
+                        <p class="p-7">We are professional marketeers. we will do anything you imagine in no time</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-5">
+                    <div class="box">
+                        <div class="image">
+                            <img src="img/development-4.png" alt="" class="development">
+                        </div>
+                        <h5 class="fw-bold h5-1 position-relative">Database</h5>
+                        <p class="p-7">We are professional marketeers. we will do anything you imagine in no time</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-5">
+                    <div class="box">
+                        <div class="image">
+                            <img src="img/development-5.png" alt="" class="development">
+                        </div>
+                        <h5 class="fw-bold h5-1 position-relative">Cloud and Servers</h5>
+                        <p class="p-7">We are professional marketeers. we will do anything you imagine in no time</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-5">
+                    <div class="box">
+                        <div class="image">
+                            <img src="img/development-6.png" alt="" class="development">
+                        </div>
+                        <h5 class="fw-bold h5-1 position-relative">Seo</h5>
+                        <p class="p-7">We are professional marketeers. we will do anything you imagine in no time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Features -->
+
+    <!-- Start Testimonials -->
+    <section class="Testimonials mt-5 pt-5 pb-5">
+        <div class="container">
+            <h4 class="fw-bold h4-1 mb-4 text-center text-sm-start">Testimonials</h4>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="box">
+                        <p class="p-7">Iam very happy with the prouduct its amazing and i recieve it very fast and the
+                            prince was
+                            price was amazing</p>
+                        <div class="image">
+                            <img src="img/wesam.jpg" alt="" class="img-1">
+                            <div class="Name">
+                                <h6 class="h6-1 fw-bold">Wesam Awad</h6>
+                                <p class="p-8 mb-0">Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="box">
+                        <p class="p-7">Iam very happy with the prouduct its amazing and i recieve it very fast and the
+                            prince was
+                            price was amazing</p>
+                        <div class="image">
+                            <img src="img/wesam.jpg" alt="" class="img-1">
+                            <div class="Name">
+                                <h6 class="h6-1 fw-bold">Wesam Awad</h6>
+                                <p class="p-8 mb-0">Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="box">
+                        <p class="p-7">Iam very happy with the prouduct its amazing and i recieve it very fast and the
+                            prince was
+                            price was amazing</p>
+                        <div class="image">
+                            <img src="img/wesam.jpg" alt="" class="img-1">
+                            <div class="Name">
+                                <h6 class="h6-1 fw-bold">Wesam Awad</h6>
+                                <p class="p-8 mb-0">Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonials -->
+
+    <!-- Star Contact -->
+    <section class="Contact  pt-5 pb-5">
+        <div class="container pos pt-5">
+            <h4 class="fw-bold text-center h4-1 mb-5">Contact Us</h4>
+            <form action="" class="form-1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="boxxx">
+                            <input type="text" name="" id="" class="form-control input-1" placeholder="Your Name">
+                            <input type="tel" name="" id="" class="form-control input-1" placeholder="Your Phone">
+                            <input type="email" name="" id="" class="form-control input-1" placeholder="Your Email">
+                            <input type="text" name="" id="" class="form-control input-1" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="boxxx-1">
+                            <textarea class="form-control input-1" placeholder="Your Message"></textarea>
+                            <input type="submit" value="Send" class="form-control input-1 Send">
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <section>
+        <footer class="footer">
+            Created With Love By Wesam Awad
+        </footer>
+    </section>
+    <!-- End Footer -->
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/Script.js"></script>
+</body>
+
+</html>
